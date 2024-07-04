@@ -1,0 +1,33 @@
+.footer {
+  flex-shrink: 0;
+  background-color: var(--light-bg);
+}
+
+.container {
+  max-width: var(--container-main);
+  margin: 0 auto;
+}
+
+.column {
+  padding: 32px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 136px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footerTitle {
+  color: var(--primary-color);
+  font: var(--font-m);
+  font-weight: 700;
+}
+
+.copyright {
+  color: var(--primary-color);
+}

@@ -1,0 +1,31 @@
+.link {
+  font: var(--font-m);
+  font-weight: 400;
+  color: var(--primary-color);
+
+  text-align: center;
+
+  transition: all 0.2s ease-in;
+
+  &:hover {
+    color: var(--icon-color);
+  }
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.header {
+  font: var(--font-l);
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
